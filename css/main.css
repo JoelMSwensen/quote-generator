@@ -33,10 +33,12 @@ SCREEN
 
 .screen {
   text-align: center;
-  height: 100px;
+  height: 150px;
   width: 410px;
   background-color: yellow;
-  margin: 0 auto;
+  margin:0 auto;
+  margin-top: 15%;
+
 }
 
 .text {
@@ -53,4 +55,9 @@ BACKGROUND
   width: 500px;
   margin: 0 auto;
   background-color: black;
+}
+
+
+#not-done {
+  background: red;
 }
