@@ -13,9 +13,11 @@ var quotes = {1:'"It\'s some kind of hollow tube, devoid of human life. Gasp. Th
   };
   $( document ).ready(function() {
   // function random()
+    // var quoteSend;
     $('#btn1').click(function(){
       var rand = Math.floor((Math.random() * 10));
-
+      var quoteSend = quotes[rand];
       $('#output').html(quotes[rand]);
+      $('#twitterQuote').html('<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=' + quoteSend + '"> Tweet</a>');
     });
   });
